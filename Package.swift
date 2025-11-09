@@ -10,6 +10,7 @@ let package = Package(
         ),
         .library(
             name: "SwiftBox2D",
+            type: .dynamic,
             targets: ["SwiftBox2D"]
         ),
     ],
